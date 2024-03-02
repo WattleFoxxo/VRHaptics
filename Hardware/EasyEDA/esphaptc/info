@@ -4,7 +4,7 @@
   "name": "esphaptc",
   "content": "",
   "created_at": "2024-03-02 11:44:38",
-  "updated_at": "2024-03-02 19:43:55",
+  "updated_at": "2024-03-02 22:38:44",
   "stick": "",
   "documents": [
     {
@@ -17,19 +17,19 @@
       "components": {
         "f5fb5a24e9edc515352eb800d4f925df": 1,
         "bb009484ef804a24ac5d18c54b249586": 10,
-        "a43c4945123c43d0a865f99e87574c20": 1,
         "fd11c9e744c44aeab6011e8bd4c3ea86": 7,
-        "5cbe824183374fac8e4c1ae848199ce3": 1,
         "baa515ab0f5a46baaabeeb7b3bf82f4c": 1,
         "6445a8f57db8ac3e9df49b5167ee29ec": 1,
-        "805c79bf20064baa8c2ddfd25abe26df": 1,
         "4e5e5775fd634dd48141eafc77c26e7a": 1,
         "e33cc1be9d5e4d929dda60b4eb023d72": 1,
         "f5b1d9403e49471cab43bc5a1bec336f": 1,
         "5c1036b53a4146e4841df4ed0a9de8f0": 2,
         "1c5b39ac72514ccd8747bf87ab52b20b": 1,
         "17e8868fa7f349ceb9e50a2d988c5a5c": 2,
-        "7463a72b8a4540a09ec5278562590438": 1
+        "65a82dee69ac41eb8f553c76124210f4": 1,
+        "b5953d65a4054165b11dfc39ebcbd953": 1,
+        "7463a72b8a4540a09ec5278562590438": 1,
+        "5cbe824183374fac8e4c1ae848199ce3": 1
       },
       "BOM": [
         [
@@ -88,24 +88,9 @@
         ],
         [
           "0.1uF",
-          2,
+          3,
           "C0603",
-          "C4,C7",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "C_0603_EU",
-            "Manufacturer Part": "",
-            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
-            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
-          }
-        ],
-        [
-          "100",
-          1,
-          "C0603",
-          "C5",
+          "C4,C5,C7",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -180,27 +165,10 @@
           }
         ],
         [
-          "LED-0603_R",
-          1,
-          "LED0603_RED",
-          "LED1",
-          {
-            "Manufacturer": "EVERLIGHT(台湾亿光)",
-            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
-            "Supplier Part": "C72044",
-            "Supplier": "LCSC",
-            "link": "",
-            "Contributor": "LCEDA_01",
-            "spiceSymbolName": "LED-0603_R",
-            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
-            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
-          }
-        ],
-        [
           "LED-0603_B",
           1,
           "LED0603_BLUE",
-          "LED2",
+          "LED1",
           {
             "Manufacturer": "EVERLIGHT(台湾亿光)",
             "Manufacturer Part": "19-217/BHC-ZL1M2RY/3T",
@@ -214,20 +182,20 @@
           }
         ],
         [
-          "USB-Micro_2",
+          "LED-0603_R",
           1,
-          "MICRO-USB-SMD_5P_C40957",
-          "POWER",
+          "LED0603_RED",
+          "LED2",
           {
-            "Supplier Part": "C40957",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
             "Supplier": "LCSC",
-            "Manufacturer": "ValuePro",
-            "Manufacturer Part": "",
-            "image": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "USB-Micro_2",
-            "puuid": "b39e7eb3f626465f81c3ae4d7d4ac08e",
-            "uuid": "a43c4945123c43d0a865f99e87574c20"
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
           }
         ],
         [
@@ -389,26 +357,44 @@
           }
         ],
         [
-          "ESP12F",
+          "TYPEC-250Y-BRP6L68",
           1,
-          "ESP12F-SMD",
-          "U3",
+          "TYPE-C-SMD_XUNPU_TYPEC-250Y-BRP6L68",
+          "U4",
           {
-            "Contributor": "Hafsal",
-            "Supplier Part": "",
-            "Supplier": "",
-            "spiceSymbolName": "ESP12F",
-            "Manufacturer Part": "",
-            "puuid": "4d5d14ea34b64546aa0f5025e3cb7952",
-            "uuid": "805c79bf20064baa8c2ddfd25abe26df"
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5252714",
+            "Manufacturer": "XUNPU(讯普)",
+            "Manufacturer Part": "TYPEC-250Y-BRP6L68",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TYPEC-250Y-BRP6L68",
+            "puuid": "bacc979f328a4333b7f7c02d4b5d307a",
+            "uuid": "65a82dee69ac41eb8f553c76124210f4"
+          }
+        ],
+        [
+          "2.4GHz",
+          1,
+          "WIFIM-SMD_ESP-12F-ESP8266MOD",
+          "U5",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Ai-Thinker(安信可)",
+            "Manufacturer Part": "ESP-12F(ESP8266MOD)",
+            "Supplier Part": "C82891",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ESP-12F(ESP8266MOD)",
+            "puuid": "21bb26c585544e17a64bb2b57131b3de",
+            "uuid": "b5953d65a4054165b11dfc39ebcbd953"
           }
         ]
       ],
-      "updateTime": 1709360044,
+      "updateTime": 1709379047,
       "createTime": 1709340278,
       "histories": [],
       "created_at": "2024-03-02 11:44:38",
-      "updated_at": "2024-03-02 17:14:04"
+      "updated_at": "2024-03-02 22:30:47"
     },
     {
       "uuid": "6cd9025274fcabe6f57309ad49695087",
@@ -453,32 +439,32 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "282f7786cb6144d097ae00194c3e3fb3": 1,
+        "daacbe2eec304950b61eef2efe596556": 2,
+        "bacc979f328a4333b7f7c02d4b5d307a": 1,
+        "21bb26c585544e17a64bb2b57131b3de": 1,
+        "c15b145d6eaf4fb5b144555548f1c432": 1,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 7,
         "60a676d313ae48718a81c380b73dfe4f": 1,
-        "daacbe2eec304950b61eef2efe596556": 2,
-        "282f7786cb6144d097ae00194c3e3fb3": 1,
         "f3d2a2ecf658447dac746eb15158a989": 2,
         "4a81c52f384a4e1ba3f57a3703e0f5f9": 1,
         "398691f1f785460098bbe5ee6590333c": 10,
         "85479227c6fd485eba9b7c55937c67d9": 1,
         "7568fee05bc44581b2c32625ae15b3f8": 1,
-        "4d5d14ea34b64546aa0f5025e3cb7952": 1,
-        "1eeeda505bc84816bd660c4ea5a1a7fa": 2,
-        "b39e7eb3f626465f81c3ae4d7d4ac08e": 1,
-        "c15b145d6eaf4fb5b144555548f1c432": 1,
-        "1efb3a885b5b4aecb6d41221a8f4d86b": 1
+        "1eeeda505bc84816bd660c4ea5a1a7fa": 2
       },
       "BOM": [],
-      "updateTime": 1709369035,
+      "updateTime": 1709379524,
       "createTime": 1709353783,
       "histories": [],
       "created_at": "2024-03-02 15:29:43",
-      "updated_at": "2024-03-02 19:43:55"
+      "updated_at": "2024-03-02 22:38:44"
     }
   ],
   "sort": [],
   "title": "esphaptc",
   "foldername": "esphaptc",
   "schfilename": "esphaptc.json",
-  "schfilemtime": 1709360044402
+  "schfilemtime": 1709379047181
 }
